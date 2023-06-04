@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lab6_PH35325</string>
+    <string name="nameTitle">Danh Sách sinh viên</string>
+    <string name="addToList">Thêm mới</string>
+</resources>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng ký"
+        android:textAllCaps="true"
+        android:textColor="#03A9F4"
+        android:textSize="30sp"
+        android:textStyle="bold"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="User name" />
+
+        <EditText
+            android:id="@+id/edt_usernamdangky"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/border_edt"
+            android:backgroundTint="#FF9800"
+            android:paddingStart="16dp"
+            android:textColor="@color/white"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password" />
+
+        <EditText
+            android:id="@+id/edt_passworddangky"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingStart="16dp"
+            android:background="@drawable/border_edt"
+            android:backgroundTint="#FF9800"
+            android:inputType="textPassword"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirm Password" />
+
+        <EditText
+            android:id="@+id/edt_passwordagain"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingStart="16dp"
+            android:background="@drawable/border_edt"
+            android:backgroundTint="#FF9800"
+            android:inputType="textPassword"
+
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_dangkyConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#2196F3"
+        android:text="Đăng Ký"
+        android:textAllCaps="true"
+        android:textSize="16dp" />
+</LinearLayout>
